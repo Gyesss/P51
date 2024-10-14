@@ -20,7 +20,7 @@ nav.navbar {
     z-index: 2;
 }
 
-a.mainBrand {
+a.main-brand {
     color: rgb(var(--tertiaryColor));
     font-size: 2em;
     font-weight: bolder;
@@ -28,7 +28,7 @@ a.mainBrand {
     transition: all .5s;
 }
 
-a.mainBrand:hover {
+a.main-brand:hover {
     text-shadow: 0 0 1rem rgb(var(--tertiaryColor));
     transform: scale(.8);
 }
@@ -58,8 +58,10 @@ section.jumbotron img {
     filter: drop-shadow(0 0 .5rem black);
 }
 
-section.homework {
+section.blueboard {
     background-color: rgb(var(--primaryColor));
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
 
 h1.special-heading {
@@ -73,6 +75,24 @@ h1.special-heading {
     margin: -1px 0 1em 0;
 }
 
-section.homework p {
+footer {
+    background-color: black;
+    min-height: 100vh;
+}
+
+footer h1.special-heading {
+    text-shadow: 0 0 1rem rgb(var(--tertiaryColor));
+}
+
+footer p, footer p a {
     color: white;
+    font-style: italic;
+    text-shadow: 0 0 1rem white;
+    text-decoration: none;
+}
+
+p.lead {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
 }
